@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d1d1d;
+  font-family: "Montserrat", sans-serif;
+}
+.navSection {
+  background-image: url(images/paris.jpg);
+  width: 100%;
+  height: 100vh;
+}
+.navSection .logo {
+  padding-top: 2em;
+   text-align: center;
+}
+.navSection div img {
+  width: 7%;
+  border-radius: 50%;
+}
+nav {
+  width: 100%;
+  margin-top: 2em;
+}
+.inform {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  font-weight: 600;
+  justify-content: space-around;
+}
+.inform .btn {
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: large;
+}
+.inform .btn:hover {
+  cursor: pointer;
+  background-color: #f1c733;
+}
+.hero {
+  width: 80%;
+  margin: 0 auto;
+}
+.hero .line {
+  margin-top: 3em;
+}
+.hero .straight {
+  margin-top: 2.5em;
+}
+.hero h1 {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 2.8rem;
+  color: #fff;
+}
+.guides {
+  display: flex;
+  margin-top: 4em;
+  justify-content: space-around;
+}
+.guides .text {
+  background-color: #f1c733;
+  width: 25%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  line-height: 2;
+}
+.guides h2 {
+  color: #fff;
+  font-size: 1.7rem;
+}
+.text p:hover {
+ cursor: pointer;
+ color: #ffffff;
+}
+.popular {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 8em;
+}
+.popular h1 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "DynaPuff", sans-serif;
+}
+.visit {
+  display: flex;
+  align-items: center;
+}
+.tour {
+  margin-top: 4em;
+}
+.things {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.things img {
+  width: 20%;
+  height: fit-content;
+}
+.things .lorem {
+  color: #fff;
+  padding-left: 1.5em;
+  line-height: 2;
+}
+.things:hover {
+  cursor: pointer;
+  background-color: #353535;
+}
+.lorem h2 {
+  font-size: 1rem;
+}
+.lorem p {
+  color: #9CA3AF;
+  font-size: 0.8rem;
+}
+.blog {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.blog h1 {
+  color: #f1c733;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  font-size: 0.8rem;
+}
+.horzinal {
+  width: 45%;
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+.blog .hotels .line {
+  width: 45%;
+  margin: 2em 0em;
+  margin-left: 1em;
+}
+.attraction {
+  display: flex;
+}
+/* .hotels {
+  width: 60%;
+} */
+.hotel {
+  display: flex;
+  padding-left: 1em;
+}
+.blog .hotel img {
+  width: 35%;
+  height: fit-content;
+}
+.detail {
+  padding-left: 1em;
+}
+.detail h2 {
+  font-size: 1.2rem;
+  padding-bottom: 0.5em;
+}
+.detail p {
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+.detail button {
+  color: rgb(0, 0, 0);
+  background-color: #f1c733;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 1em 2em;
+}
+.detail button:hover {
+  cursor: pointer;
+  background-color: #ffd84a;
+}
+.guide hr {
+  width: 45%;
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+.places {
+  display: flex;
+  padding-bottom: 3.5em;
+  padding-left: 1em;
+}
+.places:hover {
+  cursor: pointer;
+  color: #8a909b;
+}
+.places img {
+  width: 45%;
+  height: fit-content;
+}
+.places .about h2 {
+  font-size: 1.2rem;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+/* .guide {
+  width: 40%;
+} */
+.guide h1 {
+  color: #38BDF8;
+}
+.about {
+  padding-left: 1em;
+}
+.about p {
+  line-height: 2;
+}
+.view {
+  margin-bottom: 2em;
+  margin-left: 36em;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  background-color: #f1c733;
+  color: #1d1d1d;
+  font-weight: 600;
+}
+.view:hover {
+cursor: pointer;
+background-color: #ffd84a;
+}
+footer {
+  background-color: #747474;
+  margin-top: 4em;
+  padding-bottom: 3em;
+}
+.information {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.dreamTrip h4 {
+  margin: 1em 0em;
+  color: #ededed;
+}
+.dreamTrip p {
+  line-height: 2;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.business .heading {
+  margin: 1em 0em;
+}
+.dreamTrip p:hover {
+  cursor: pointer;
+  color: #e0e0e0;
+  font-style: oblique;
+}
+.LLC {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 2em;
+  background-color: #747474;
+}
+.image {
+  display: flex;
+}
+.links {
+  display: flex;
+}
+.links p {
+  margin-right: 1rem;
+}
+.links p:hover {
+  cursor: pointer;
+  color: #dbdbdb;
+  font-style: oblique;
+}
+.image img {
+  width: 4%;
+  border-radius: 50px;
+}
+.website {
+  width: 70%;
+  padding-top: 0.5em;
+  font-size: small;
+  color: #dadada;
+  background-color: #747474;
+}
+.category {
+  display: flex;
+}
+.category select {
+  padding: 1em;
+  margin-right: 1em;
+}
+.addressed {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.icons {
+  width: 20%;
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+.icons img {
+  width: 15%;
+  height: fit-content;
+}
+.icons img:hover {
+  cursor: pointer;
+}
